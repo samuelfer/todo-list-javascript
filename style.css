@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #0c0c0c;
+}
+
+p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+}
+
+.header button {
+    position: absolute;
+    right: 18%;
+    margin-top: -30px;
+}
+
+.header {
+    font-size: 1.5rem;
+}
+
+.todo {
+    margin-top: 40px;
+    width: 60%;
+}
+
+.div-insert {
+    padding: 10px;
+    background-color: rgb(129, 14, 223);
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 6px 5px 10px 0px grey;
+}
+
+.todo-insert {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    width: 90%;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button {
+    width: 10%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.bxs-trash-alt {
+    font-size: 1.2rem;
+    background-color: rgb(129, 14, 223);
+    border-radius: 30%;
+    color: white;
+    padding: 5px;
+}
+
+.bx-plus {
+    font-size: 1.2rem;
+    margin-left: 10px;
+    background-color: #0c0c0c;
+    border-radius: 30%;
+    padding: 5px;
+    color: white;
+}
+
+.todo-list {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #7c35b5;
+    border-radius: 10px;
+    box-shadow: 6px 5px 10px 0px grey;
+    display: flex;
+    align-items: center;
+}
+
+.todo-list span {
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+}
+
+.todo-list button {
+    color: white;
+    padding: 5px;
+}
+
+.todo-list input {
+    width: 10%;
+    outline: none;
+    accent-color: currentColor;
+}
+
+.todo-list i {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.todo-list .bxs-trash-alt {
+    font-size: 1.2rem;
+    background-color: #000;
+}
+
+li {
+    list-style-type: none;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.footer {
+    color: orange;
+    position: relative;
+    bottom: 0;
+}
+
+.footer .versiculo {
+    font-style: italic;
+    font-size: 1rem;
+    left: 0;
+}
+
+.footer .copy {
+    font-size: 1.1rem;
+    right: 0;
+}
+
+@media(max-width: 775px) {
+    input {
+        width: 70%;
+    }
+
+    .todo-insert button {
+        width: 30%;
+    }
+
+    i {
+        font-size: 1.5rem;
+        padding: 8px;
+    }
+
+    p {
+        font-size: x-large;
+    }
+
+}
